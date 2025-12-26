@@ -11,7 +11,8 @@ const defaultUrl = process.env.VERCEL_URL
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Real Estate - Find Your Dream Property",
-  description: "Discover the perfect home, apartment, villa, or commercial space. Browse our collection of premium properties.",
+  description:
+    "Discover the perfect home, apartment, villa, or commercial space. Browse our collection of premium properties.",
 };
 
 const geistSans = Geist({
